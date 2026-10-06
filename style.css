@@ -1,0 +1,33 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color:blue;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid blue;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+button{
+    background-color:blue;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:darkblue;
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
